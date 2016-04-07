@@ -1,0 +1,60 @@
+            /*===== Kerframes =====*/
+            
+            @keyframes slideLeft {
+                0% {}
+                100% {
+                    margin-left: -400px;
+                }
+            }
+            
+            @keyframes fadeOut {
+                0% {}
+                100% {
+                    visibility: hidden;
+                }
+            }
+            
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes moveUp {
+                0% {
+                    margin-top: 100px;
+                }
+                100% {}
+            }
+            
+            @keyframes semi_trans {
+                0% {
+                    opacity: 1;
+                }
+                100% {}
+            }
+            
+            @keyframes moveLeft {
+                0% {}
+                50% {
+                    background-position: -350px 0px;
+                }
+                100% {
+                    background-position: 0px 0px;
+                }
+            }
+            
+            @keyframes moveRight {
+                0% {
+                    background-position: -650px 0px;
+                }
+                50% {
+                    background-position: 0px 0px;
+                }
+                100% {
+                    background-position: -650px 0px;
+                }
+            }
